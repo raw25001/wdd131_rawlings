@@ -3,37 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool Pics Part 1</title>
+    <title>Cool Pics</title>
     <link rel="stylesheet" href="style.css">
+    <script src="coolpics.js" defer></script>
 </head>
 <body>
     <header>
-    <h1>Cool Pics 📷</h1>
-        <nav>
-            <p class="menu">Menu</p>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">People</a></li>
-                <li><a href="#">Places</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <h1>Cool Pics 📷</h1>
+        <button class="menu-btn">Menu</button>
+        <nav class="menu hide">
+            <a href="#">Home</a>
+            <a href="#">People</a>
+            <a href="#">Places</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
+
     <main>
         <h2>Current Work</h2>
-        <img src="norris-sm.jpg" alt="Cool Pic">
-        <img src="norris-sm.jpg" alt="Cool Pic">
-        <img src="norris-sm.jpg" alt="Cool Pic">
-        <img src="norris-sm.jpg" alt="Cool Pic">
-        <img src="norris-sm.jpg" alt="Cool Pic">
-        <img src="norris-sm.jpg" alt="Cool Pic">
-        <img src="norris-sm.jpg" alt="Cool Pic">
-        <img src="norris-sm.jpg" alt="Cool Pic">
-        <img src="norris-sm.jpg" alt="Cool Pic">
+        <section class="gallery">
+            <figure><img src="norris-sm.jpg" alt="Norris Geyser Basin"></figure>
+            <figure><img src="norris-sm.jpg" alt="Norris Geyser Basin"></figure>
+            <figure><img src="norris-sm.jpg" alt="Norris Geyser Basin"></figure>
+            <figure><img src="norris-sm.jpg" alt="Norris Geyser Basin"></figure>
+            <figure><img src="norris-sm.jpg" alt="Norris Geyser Basin"></figure>
+            <figure><img src="norris-sm.jpg" alt="Norris Geyser Basin"></figure>
+            <figure><img src="norris-sm.jpg" alt="Norris Geyser Basin"></figure>
+            <figure><img src="norris-sm.jpg" alt="Norris Geyser Basin"></figure>
+            <figure><img src="norris-sm.jpg" alt="Norris Geyser Basin"></figure>
+        </section>
     </main>
+
     <footer>
-        <p>&copy; Not a real site 😊</p>
+        <p>&copy; 2024 Cool Pics Gallery</p>
     </footer>
+
+    <dialog>
+        <button class="close-viewer">X</button>
+        <img src="norris-full.jpg" alt="Norris Geyser Basin">
+    </dialog>
 </body>
 </html>
