@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Spectral|Roboto");
+
+body {
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    font-family: 'Roboto', sans-serif; /* default */
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    font-family: 'Spectral';
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'Spectral', serif;
+}
+
+nav a:hover {
+    color: #f5c542;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#searchBar {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+#searchBar::placeholder {
+    font-family: 'Roboto';
+}
+
+.character {
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    background-color: #1e1e1e;
+}
+
+.character h2 {
+    font-family: 'Spectral';
+}
+
+.character p {
+    font-family: 'Roboto';
+}
+
+.character img {
+    width: 200px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Spectral';
+}
